@@ -1,0 +1,122 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../assets/norsu_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+h1,
+h2 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 40px;
+}
+
+.btn-custom {
+    background: rgb(39, 175, 43);
+    width: 180px;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom:hover {
+    background: rgb(15, 103, 15);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.table td {
+    font-size: medium;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: #eef2f7;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #eef2f7;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #2575fc;
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    padding: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f39c12;
+}
+
+.btn-action {
+    border-radius: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.input-group input {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group button {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .btn-custom {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .table-responsive {
+        margin-top: 10px;
+    }
+}
